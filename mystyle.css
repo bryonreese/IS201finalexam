@@ -1,0 +1,61 @@
+body{
+    background-color: silver;
+}
+
+/*Div Styles*/
+.common{
+   font-family: 'Courier New', Courier, monospace;
+   position: absolute;
+}
+.top{
+   top: 0px;
+   left: 0px;
+   right: 0px;
+}
+.middle{
+    top: 50px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background-color: aliceblue;
+}
+.resume{
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    right: 0px;
+    text-align: left;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+}
+.privacy{
+    display: block;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+.backgroundblack{
+    background-color: black;
+}
+.imgcircle{
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border-radius: 130px;
+    overflow: hidden;
+}
